@@ -4,11 +4,11 @@ def paréntesis_balanceados(cadena):
     paréntesis_cerrados = {')', ']', '}'}
     paréntesis_correspondientes = {')': '(', ']': '[', '}': '{'}
 
-    for carácter in cadena:
-        if carácter in paréntesis_abiertos:
-            pila.append(carácter)
-        elif carácter in paréntesis_cerrados:
-            if not pila or pila.pop() != paréntesis_correspondientes[carácter]:
+    for caracter in cadena:
+        if caracter in paréntesis_abiertos:
+            pila.append(caracter)
+        elif caracter in paréntesis_cerrados:
+            if not pila or pila.pop() != paréntesis_correspondientes[caracter]:
                 return False
 
     # La cadena está balanceada si la pila está vacía al final

@@ -3,13 +3,16 @@ from collections import deque
 def push(pila, elemento):
     pila.append(elemento)
 
+
 def pop(pila):
     return pila.pop()
+
 
 def revertir_lista(lista):
     pila = deque()
     for elemento in lista:
         push(pila, elemento)
+        print(elemento)
     lista_revertida = []
     while pila:
         push(lista_revertida, pop(pila))
