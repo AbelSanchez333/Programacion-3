@@ -3,6 +3,11 @@ from collections import deque
 ##Se importa time para poder hacer pausas en el codigo
 import time
 
+##Se crea la funcion "front" para mostrar el primer elemento de cualquier lista
+def front(cola):
+    primer_elemento = cola[0]
+    print("El primer elemento de la cola es: ", primer_elemento)
+
 ##Se define la funcion enqueue que ingresa un elemento a la cola
 def enqueue(cola, elemento):
     cola.append(elemento)
