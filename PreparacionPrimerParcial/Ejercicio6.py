@@ -32,6 +32,7 @@ root.right.right.left = TreeNode(22)
 
 print(kth_smallest(root, 2))
 print(kth_smallest(root, 3))
+print(kth_smallest(root, 1))
 
 
 

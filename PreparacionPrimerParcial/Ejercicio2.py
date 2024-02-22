@@ -25,7 +25,7 @@ root.left.right.right = TreeNode(7)
 root.right.right = TreeNode(24)
 root.right.right.left = TreeNode(22)
 
-result = closest_value(root, 19)
+result = closest_value(root, 3)
 print(result)
 
 
