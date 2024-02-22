@@ -1,7 +1,7 @@
 ##Se importa de las collecciones deque
 from collections import deque
 
-##Se crea la funcion "front" para mostrar el primer elemento de cualquier lista
+##Se crea la funcion "peek" para mostrar el primer elemento de cualquier lista
 def peek(pila):
     elemento_superior = pila[-1]
     print("El elemento superior de la pila es: ", elemento_superior)

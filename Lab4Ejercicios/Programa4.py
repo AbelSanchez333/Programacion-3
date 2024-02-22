@@ -12,7 +12,6 @@ class ColaConPilas:
         # Operación dequeue: Obtener elemento de la cola (si existe)
         if not self.pila_salida:
             # Si la pila de salida está vacía, transferir elementos de la pila de entrada
-            # invirtiendo el orden para simular el comportamiento de una cola.
             while self.pila_entrada:
                 self.pila_salida.append(self.pila_entrada.pop())
 
