@@ -39,7 +39,7 @@ def revertir_mita_cola(cola):
     ##Unir las colas en una sola
     cola_unida = cola_parte1 + cola_parte2
     cola_final = list(cola_unida)
-    return cola_final
+    return cola_unida
 
 ##Solicitar al usuario la cantidad de datos
 print("REVERTIR LA MITAD DE UNA COLA")

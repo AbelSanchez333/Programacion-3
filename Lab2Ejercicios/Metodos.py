@@ -14,17 +14,17 @@ resultado = texto.center(20,'*')
 ##print(resultado)
 
 ##Metodo isalnum (Devuelve True si todos los caracteres de la cadena son alfanumericos)
-texto = "Python1234567"
+texto = "*"
 resultado = texto.isalnum()
 ##print(resultado)
 
 ##Metodo isdigit (Devuelve True si todos los caracteres de la cadena son digitos)
-texto = "234564"
+texto = "2345jj64"
 resultado = texto.isdigit()
 ##print(resultado)
 
-##Metodo islwer (Devuelve True si todos los caracteres de la cadena estan en minuscula)
-texto = "sasdfasdfadff"
+##Metodo islower (Devuelve True si todos los caracteres de la cadena estan en minuscula)
+texto = "sasdfasAdfadff"
 resultado = texto.islower()
 ##print(resultado)
 
@@ -42,13 +42,13 @@ resultado = texto.isspace()
 ##Metodo strip (Elimina los espacios en blanco al inicio y final de una cadena)
 texto = "  Hola mundo     "
 resultado = texto.strip()
-##print(resultado)
+#print(resultado)
 
 ##Metodo replace (Remplaza una cadena especifica con otra cadena)
 texto = "Hola mundo"
 resultado = texto.replace("Hola","Que Tal")
-##print("Cadena original:",texto)
-##print("Cadena modificada:",resultado)
+#print("Cadena original:",texto)
+#print("Cadena modificada:",resultado)
 
 ##Metodo rstrip (Elimina los espacios en blanco del espacio derecho de una cadena)
 texto = "  Hola mundo     "
