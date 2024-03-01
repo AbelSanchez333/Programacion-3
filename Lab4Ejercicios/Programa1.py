@@ -16,7 +16,7 @@ def pop(pila):
 
 ##Se crea la funcion "revertir lista" para revertir la lista ingresada
 def revertir_lista(lista):
-    pila = deque()
+    pila = []
     for elemento in lista:
         ##Se ingresan los datos de la lista original en una nueva pila
         push(pila, elemento)
