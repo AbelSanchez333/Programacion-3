@@ -7,7 +7,6 @@ import time
 def front(cola):
     primer_elemento = cola[0]
     print("El primer elemento de la cola es: ", primer_elemento)
-
 ##Se define la funcion enqueue que ingresa un elemento a la cola
 def enqueue(cola, elemento):
     cola.append(elemento)
@@ -21,7 +20,7 @@ def simular_linea_espera(clientes):
     queue = deque(clientes)
     ##El ciclo se repetira mientras la cola siga existiendo
     while queue:
-        print("Atendiendo a la persona:", dequeue(queue))
+        print("Atendiendo a la persona:", queue.popleft())
         ##Time sirve para hacer una pausa de 1 segundo en la ejecucion del codigo 
         time.sleep(1)
 
