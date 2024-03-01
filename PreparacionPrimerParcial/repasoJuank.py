@@ -16,6 +16,9 @@ while(intercambio):
 
 print("Arreglo ordenado: ", arreglo)
 '''
+
+
+'''
 from collections import deque
 pila = [1,2,3,4,5,6]
 
@@ -32,10 +35,33 @@ cola.append(pila.pop(-1))
 
 print(pila)
 print(cola)
+'''
+
+'''
+arreglo_original = [1,2,3,4,5,6,7,8,9]
+print(arreglo_original)
+arreglo = []
+for elemento in arreglo_original:
+    arreglo.append(elemento)
+    
+arreglo_invertido = []
+while(arreglo):
+    arreglo_invertido.append(arreglo.pop())
+
+print(arreglo_invertido)
+'''
+from collections import deque
+import time
+arreglo_original = [1,2,3,4,5,6,7,8,9]
+
+arreglo_manejable = deque(arreglo_original)
+
+while(arreglo_manejable):
+    print(arreglo_manejable.popleft())
+    time.sleep(1)
 
 
-
-
+    
 
 
 
