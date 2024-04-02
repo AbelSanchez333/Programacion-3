@@ -17,7 +17,7 @@ void setup() {
 }
 
 void loop() {
-  // Control de los LEDs desde el monitor serial
+  // Leds
   if (Serial.available() > 0) {
     char estadoMonitor = Serial.read();
     if (estadoMonitor == 'A') {
@@ -54,7 +54,7 @@ void loop() {
       Serial.println("Grupo Led D Apagados");
     }
   } 
-  // Control de los LEDs desde los pulsadores
+  // Push bottons
   else {
     if (digitalRead(10) == LOW) {
       Serial.println('A');
