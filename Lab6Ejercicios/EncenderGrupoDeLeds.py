@@ -25,7 +25,7 @@ estilo_boton = {
     'bg': '#4BCA5E',  
     'fg': '#005D0E',  
     'activebackground': '#04FF00',  
-    'activeforeground': 'black', 
+    'activeforeground': 'black',
     'bd': 0, 
     'highlightthickness': 3,  
 }
