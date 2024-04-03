@@ -85,4 +85,4 @@ thread_arduino = threading.Thread(target=leer_datos_desde_arduino)
 thread_arduino.start()
 
 # Iniciar el bucle de la interfaz de usuario
-ventana.mainloop()
+ventana.mainloop() 
